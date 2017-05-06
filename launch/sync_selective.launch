@@ -8,7 +8,9 @@
 
  <node name="master_sync" pkg="master_sync_fkie" type="master_sync" output="screen">
    <!-- This list with names of ROS master to synchronize. Only this ROS master in this list will be synchronized. The ~ignore_hosts list is processed first. -->
-   <rosparam param="sync_hosts">[]</rosparam>
+   <rosparam param="ignore_hosts">[192.168.11.60, 192.168.11.61, 192.168.11.62, 192.168.11.63,192.168.11.64,192.168.11.65]</rosparam>
+
+
  </node>
 
 
